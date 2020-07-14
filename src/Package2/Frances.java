@@ -7,6 +7,10 @@ public class Frances extends Persona {
         return "Bonjeur";
     }
 
+    public String otroMetodo() {
+        return "loquesea";
+    }
+
     @Override
     public String saltar() {
         saltos = saltos + 2;
